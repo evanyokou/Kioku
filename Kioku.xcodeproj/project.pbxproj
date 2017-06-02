@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860ED4A21EDEC0ED0041DA50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860ED4A11EDEC0ED0041DA50 /* AppDelegate.swift */; };
+		860ED4A41EDEC0ED0041DA50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860ED4A31EDEC0ED0041DA50 /* ViewController.swift */; };
+		860ED4A71EDEC0ED0041DA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860ED4A51EDEC0ED0041DA50 /* Main.storyboard */; };
+		860ED4AA1EDEC0ED0041DA50 /* Kioku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 860ED4A81EDEC0ED0041DA50 /* Kioku.xcdatamodeld */; };
+		860ED4AC1EDEC0ED0041DA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860ED4AB1EDEC0ED0041DA50 /* Assets.xcassets */; };
+		860ED4AF1EDEC0ED0041DA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860ED4AD1EDEC0ED0041DA50 /* LaunchScreen.storyboard */; };
+		860ED4BA1EDEC0EE0041DA50 /* KiokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860ED4B91EDEC0EE0041DA50 /* KiokuTests.swift */; };
+		860ED4D01EDEC5470041DA50 /* KotobaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860ED4CF1EDEC5470041DA50 /* KotobaHelper.swift */; };
+		860ED4DE1EDF02EC0041DA50 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860ED4DD1EDF02EC0041DA50 /* AddController.swift */; };
+		860ED4E01EDF03210041DA50 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860ED4DF1EDF03210041DA50 /* SettingController.swift */; };
+		860ED4E31EDF07650041DA50 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860ED4E21EDF07650041DA50 /* SettingCell.swift */; };
+		860ED4E61EDF08320041DA50 /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 860ED4E51EDF08320041DA50 /* Setting.plist */; };
+		863200941EDFB6EB00D95DB5 /* RememberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863200931EDFB6EB00D95DB5 /* RememberCell.swift */; };
+		863200981EDFCBB300D95DB5 /* Tags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 863200971EDFCBB300D95DB5 /* Tags.plist */; };
+		8632009A1EDFE2AA00D95DB5 /* KotobaEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863200991EDFE2AA00D95DB5 /* KotobaEntity.swift */; };
+		8632009D1EDFFD5700D95DB5 /* Kotoba+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632009B1EDFFD5700D95DB5 /* Kotoba+CoreDataClass.swift */; };
+		8632009E1EDFFD5700D95DB5 /* Kotoba+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632009C1EDFFD5700D95DB5 /* Kotoba+CoreDataProperties.swift */; };
+		863200A11EE0072900D95DB5 /* ParamsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863200A01EE0072900D95DB5 /* ParamsProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		860ED4B61EDEC0EE0041DA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 860ED4961EDEC0ED0041DA50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 860ED49D1EDEC0ED0041DA50;
+			remoteInfo = Kioku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		860ED49E1EDEC0ED0041DA50 /* Kioku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kioku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		860ED4A11EDEC0ED0041DA50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		860ED4A31EDEC0ED0041DA50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		860ED4A61EDEC0ED0041DA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		860ED4A91EDEC0ED0041DA50 /* Kioku.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kioku.xcdatamodel; sourceTree = "<group>"; };
+		860ED4AB1EDEC0ED0041DA50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		860ED4AE1EDEC0ED0041DA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		860ED4B01EDEC0ED0041DA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860ED4B51EDEC0EE0041DA50 /* KiokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		860ED4B91EDEC0EE0041DA50 /* KiokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiokuTests.swift; sourceTree = "<group>"; };
+		860ED4BB1EDEC0EE0041DA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860ED4CF1EDEC5470041DA50 /* KotobaHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KotobaHelper.swift; sourceTree = "<group>"; };
+		860ED4DD1EDF02EC0041DA50 /* AddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		860ED4DF1EDF03210041DA50 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		860ED4E21EDF07650041DA50 /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		860ED4E51EDF08320041DA50 /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Setting.plist; sourceTree = "<group>"; };
+		863200931EDFB6EB00D95DB5 /* RememberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RememberCell.swift; sourceTree = "<group>"; };
+		863200971EDFCBB300D95DB5 /* Tags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tags.plist; sourceTree = "<group>"; };
+		863200991EDFE2AA00D95DB5 /* KotobaEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KotobaEntity.swift; sourceTree = "<group>"; };
+		8632009B1EDFFD5700D95DB5 /* Kotoba+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Kotoba+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8632009C1EDFFD5700D95DB5 /* Kotoba+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Kotoba+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		863200A01EE0072900D95DB5 /* ParamsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamsProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		860ED49B1EDEC0ED0041DA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860ED4B21EDEC0EE0041DA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860ED4951EDEC0ED0041DA50 = {
+			isa = PBXGroup;
+			children = (
+				860ED4A01EDEC0ED0041DA50 /* Kioku */,
+				860ED4B81EDEC0EE0041DA50 /* KiokuTests */,
+				860ED49F1EDEC0ED0041DA50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		860ED49F1EDEC0ED0041DA50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				860ED49E1EDEC0ED0041DA50 /* Kioku.app */,
+				860ED4B51EDEC0EE0041DA50 /* KiokuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		860ED4A01EDEC0ED0041DA50 /* Kioku */ = {
+			isa = PBXGroup;
+			children = (
+				8632009F1EE0070200D95DB5 /* protocol */,
+				860ED4E41EDF080F0041DA50 /* properties */,
+				860ED4E11EDF074C0041DA50 /* table */,
+				860ED4CE1EDEC5050041DA50 /* openHelper */,
+				860ED4CB1EDEC32D0041DA50 /* coredata */,
+				860ED4C61EDEC1240041DA50 /* storyboard */,
+				860ED4C51EDEC1160041DA50 /* controller */,
+				860ED4C41EDEC1020041DA50 /* delegate */,
+				860ED4AB1EDEC0ED0041DA50 /* Assets.xcassets */,
+				860ED4B01EDEC0ED0041DA50 /* Info.plist */,
+				860ED4A81EDEC0ED0041DA50 /* Kioku.xcdatamodeld */,
+			);
+			path = Kioku;
+			sourceTree = "<group>";
+		};
+		860ED4B81EDEC0EE0041DA50 /* KiokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				860ED4B91EDEC0EE0041DA50 /* KiokuTests.swift */,
+				860ED4BB1EDEC0EE0041DA50 /* Info.plist */,
+			);
+			path = KiokuTests;
+			sourceTree = "<group>";
+		};
+		860ED4C41EDEC1020041DA50 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				860ED4A11EDEC0ED0041DA50 /* AppDelegate.swift */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		860ED4C51EDEC1160041DA50 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				860ED4A31EDEC0ED0041DA50 /* ViewController.swift */,
+				860ED4DD1EDF02EC0041DA50 /* AddController.swift */,
+				860ED4DF1EDF03210041DA50 /* SettingController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		860ED4C61EDEC1240041DA50 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				860ED4A51EDEC0ED0041DA50 /* Main.storyboard */,
+				860ED4AD1EDEC0ED0041DA50 /* LaunchScreen.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		860ED4CB1EDEC32D0041DA50 /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				8632009B1EDFFD5700D95DB5 /* Kotoba+CoreDataClass.swift */,
+				8632009C1EDFFD5700D95DB5 /* Kotoba+CoreDataProperties.swift */,
+				863200991EDFE2AA00D95DB5 /* KotobaEntity.swift */,
+			);
+			name = coredata;
+			sourceTree = "<group>";
+		};
+		860ED4CE1EDEC5050041DA50 /* openHelper */ = {
+			isa = PBXGroup;
+			children = (
+				860ED4CF1EDEC5470041DA50 /* KotobaHelper.swift */,
+			);
+			name = openHelper;
+			sourceTree = "<group>";
+		};
+		860ED4E11EDF074C0041DA50 /* table */ = {
+			isa = PBXGroup;
+			children = (
+				860ED4E21EDF07650041DA50 /* SettingCell.swift */,
+				863200931EDFB6EB00D95DB5 /* RememberCell.swift */,
+			);
+			name = table;
+			sourceTree = "<group>";
+		};
+		860ED4E41EDF080F0041DA50 /* properties */ = {
+			isa = PBXGroup;
+			children = (
+				860ED4E51EDF08320041DA50 /* Setting.plist */,
+				863200971EDFCBB300D95DB5 /* Tags.plist */,
+			);
+			name = properties;
+			sourceTree = "<group>";
+		};
+		8632009F1EE0070200D95DB5 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				863200A01EE0072900D95DB5 /* ParamsProtocol.swift */,
+			);
+			name = protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		860ED49D1EDEC0ED0041DA50 /* Kioku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860ED4BE1EDEC0EE0041DA50 /* Build configuration list for PBXNativeTarget "Kioku" */;
+			buildPhases = (
+				860ED49A1EDEC0ED0041DA50 /* Sources */,
+				860ED49B1EDEC0ED0041DA50 /* Frameworks */,
+				860ED49C1EDEC0ED0041DA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kioku;
+			productName = Kioku;
+			productReference = 860ED49E1EDEC0ED0041DA50 /* Kioku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		860ED4B41EDEC0EE0041DA50 /* KiokuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860ED4C11EDEC0EE0041DA50 /* Build configuration list for PBXNativeTarget "KiokuTests" */;
+			buildPhases = (
+				860ED4B11EDEC0EE0041DA50 /* Sources */,
+				860ED4B21EDEC0EE0041DA50 /* Frameworks */,
+				860ED4B31EDEC0EE0041DA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860ED4B71EDEC0EE0041DA50 /* PBXTargetDependency */,
+			);
+			name = KiokuTests;
+			productName = KiokuTests;
+			productReference = 860ED4B51EDEC0EE0041DA50 /* KiokuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		860ED4961EDEC0ED0041DA50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Yuhao;
+				TargetAttributes = {
+					860ED49D1EDEC0ED0041DA50 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = FD39K54FTA;
+						ProvisioningStyle = Automatic;
+					};
+					860ED4B41EDEC0EE0041DA50 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = FD39K54FTA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 860ED49D1EDEC0ED0041DA50;
+					};
+				};
+			};
+			buildConfigurationList = 860ED4991EDEC0ED0041DA50 /* Build configuration list for PBXProject "Kioku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 860ED4951EDEC0ED0041DA50;
+			productRefGroup = 860ED49F1EDEC0ED0041DA50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				860ED49D1EDEC0ED0041DA50 /* Kioku */,
+				860ED4B41EDEC0EE0041DA50 /* KiokuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		860ED49C1EDEC0ED0041DA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860ED4AF1EDEC0ED0041DA50 /* LaunchScreen.storyboard in Resources */,
+				860ED4E61EDF08320041DA50 /* Setting.plist in Resources */,
+				860ED4AC1EDEC0ED0041DA50 /* Assets.xcassets in Resources */,
+				863200981EDFCBB300D95DB5 /* Tags.plist in Resources */,
+				860ED4A71EDEC0ED0041DA50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860ED4B31EDEC0EE0041DA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		860ED49A1EDEC0ED0041DA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863200941EDFB6EB00D95DB5 /* RememberCell.swift in Sources */,
+				863200A11EE0072900D95DB5 /* ParamsProtocol.swift in Sources */,
+				860ED4A41EDEC0ED0041DA50 /* ViewController.swift in Sources */,
+				860ED4D01EDEC5470041DA50 /* KotobaHelper.swift in Sources */,
+				860ED4E01EDF03210041DA50 /* SettingController.swift in Sources */,
+				8632009A1EDFE2AA00D95DB5 /* KotobaEntity.swift in Sources */,
+				860ED4A21EDEC0ED0041DA50 /* AppDelegate.swift in Sources */,
+				860ED4DE1EDF02EC0041DA50 /* AddController.swift in Sources */,
+				8632009D1EDFFD5700D95DB5 /* Kotoba+CoreDataClass.swift in Sources */,
+				860ED4AA1EDEC0ED0041DA50 /* Kioku.xcdatamodeld in Sources */,
+				8632009E1EDFFD5700D95DB5 /* Kotoba+CoreDataProperties.swift in Sources */,
+				860ED4E31EDF07650041DA50 /* SettingCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860ED4B11EDEC0EE0041DA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860ED4BA1EDEC0EE0041DA50 /* KiokuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		860ED4B71EDEC0EE0041DA50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 860ED49D1EDEC0ED0041DA50 /* Kioku */;
+			targetProxy = 860ED4B61EDEC0EE0041DA50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		860ED4A51EDEC0ED0041DA50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860ED4A61EDEC0ED0041DA50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		860ED4AD1EDEC0ED0041DA50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860ED4AE1EDEC0ED0041DA50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		860ED4BC1EDEC0EE0041DA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		860ED4BD1EDEC0EE0041DA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860ED4BF1EDEC0EE0041DA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FD39K54FTA;
+				INFOPLIST_FILE = Kioku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.Kioku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		860ED4C01EDEC0EE0041DA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FD39K54FTA;
+				INFOPLIST_FILE = Kioku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.Kioku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		860ED4C21EDEC0EE0041DA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FD39K54FTA;
+				INFOPLIST_FILE = KiokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.KiokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kioku.app/Kioku";
+			};
+			name = Debug;
+		};
+		860ED4C31EDEC0EE0041DA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FD39K54FTA;
+				INFOPLIST_FILE = KiokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yh.KiokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kioku.app/Kioku";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		860ED4991EDEC0ED0041DA50 /* Build configuration list for PBXProject "Kioku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860ED4BC1EDEC0EE0041DA50 /* Debug */,
+				860ED4BD1EDEC0EE0041DA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860ED4BE1EDEC0EE0041DA50 /* Build configuration list for PBXNativeTarget "Kioku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860ED4BF1EDEC0EE0041DA50 /* Debug */,
+				860ED4C01EDEC0EE0041DA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860ED4C11EDEC0EE0041DA50 /* Build configuration list for PBXNativeTarget "KiokuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860ED4C21EDEC0EE0041DA50 /* Debug */,
+				860ED4C31EDEC0EE0041DA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		860ED4A81EDEC0ED0041DA50 /* Kioku.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				860ED4A91EDEC0ED0041DA50 /* Kioku.xcdatamodel */,
+			);
+			currentVersion = 860ED4A91EDEC0ED0041DA50 /* Kioku.xcdatamodel */;
+			path = Kioku.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 860ED4961EDEC0ED0041DA50 /* Project object */;
+}

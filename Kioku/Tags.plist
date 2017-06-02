@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>一般</string>
+	<string>小説</string>
+	<string>マンガ</string>
+	<string>政治</string>
+	<string>経済</string>
+	<string>芸能</string>
+	<string>ドラマ</string>
+	<string>アニメ</string>
+	<string>姓名</string>
+	<string>スポツ</string>
+	<string>インタネット</string>
+	<string>科学</string>
+	<string>地図</string>
+	<string>ゲーム</string>
+	<string>生活</string>
+	<string>占い</string>
+	<string>電子書籍</string>
+	<string>性格</string>
+	<string>挨拶</string>
+	<string>謙遜</string>
+	<string>尊敬</string>
+</array>
+</plist>
